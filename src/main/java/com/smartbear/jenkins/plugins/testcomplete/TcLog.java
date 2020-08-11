@@ -59,6 +59,4 @@ public class TcLog {
         PrintWriter printWriter = new PrintWriter(stringWriter);
         e.printStackTrace(printWriter);
         String stackTrace = stringWriter.toString();
-        error(listener, "\n" + stackTrace);
-    }
-}
+        er
